@@ -42,6 +42,7 @@ section {
     border-radius: 8px;
     margin-bottom: 1.5rem;
 }
+
 @keyframes flame {
     0% { filter: drop-shadow(0 0 5px #ff5e00) brightness(1.1); }
     25% { filter: drop-shadow(0 0 10px #ff9d00) brightness(1.2); }
@@ -59,6 +60,7 @@ section {
 .logo img:hover {
     transform: translateY(-10px) scale(1.05);
 }
+
 footer {
     background-color: #161b22;
     text-align: center;
@@ -67,48 +69,3 @@ footer {
     color: #8b949e;
     font-size: 0.9rem;
 }
-
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #0d1117;
-    color: #c9d1d9;
-}
-
-header {
-    background-color: #161b22;
-    text-align: center;
-    padding: 2rem 1rem;
-    border-bottom: 2px solid #30363d;
-}
-
-h1 {
-    color: #facc15;
-}
-
-h2 {
-    color: #58a6ff;
-}
-
-a {
-    color: #f700ff;
-    text-decoration: none;
-    margin-right: 1rem;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 2rem;
-}
-
-.proyecto {
-    background-color: #21262d;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-}
- 
